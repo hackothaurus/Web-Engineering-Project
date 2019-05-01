@@ -1,0 +1,50 @@
+body{
+
+    background-color: #d8d8d8;
+}
+.light_col {
+	background-color: #d8d8d8
+}
+.light_text {
+    color:  #d8d8d8
+}
+.image{
+   border: solid thick black;
+   max-height: 330px;
+   max-width: 330px;
+   object-fit: cover;
+}
+.piecename{
+    float: right;
+    margin-top: 10vw;
+
+}
+.imagepiece{
+    max-width: 330px;
+    word-wrap: wrap;
+}
+.btnlist{
+    justify-content: flex-end;
+    text-align: right;
+
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.btnlist>div{
+    border-radius: 10px;
+}
+.pricetag{
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.row{
+  height: auto;position: relative;
+}

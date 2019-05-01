@@ -1,0 +1,28 @@
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.discription {
+	background-color:#b1bed5;
+	font-family: "Times New Roman";
+	border-radius:12px;
+	box-shadow: 0 0 10px gray;
+	position: relative;
+
+}
+
+.img1{
+
+	padding: 15px;
+	object-fit: cover;
+	object-position: center;
+	width: 400px;
+	height: 400px
+}
