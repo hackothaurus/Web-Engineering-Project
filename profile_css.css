@@ -49,11 +49,15 @@ html {
 	height: 100%
 }
 
+
 .row {
 	overflow: auto;
-	background-color: #d8d8d8
+	background-color: #d8d8d8;
+	min-width: 100%;
 }
-
+.no_border {
+	border: 0px;
+}
 .marg-b {
 	margin-bottom: 15px
 }
