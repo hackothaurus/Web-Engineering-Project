@@ -138,10 +138,6 @@ body {
 	margin: 5px 0
 }
 
-.overlay {
-	height: 100%;
-	opacity: 0
-}
 
 .img-container {
 	position: relative;
