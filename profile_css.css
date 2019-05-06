@@ -42,14 +42,19 @@ hr {
 	height: 100%
 }
 
+.no_overflow {
+	overflow: hidden;
+}
 .col,
 .row,
 body,
 html {
-	height: 100%
+	height: 100%;
 }
 
-
+.marg_tb {
+	margin: 1em 0em;
+}
 .row {
 	overflow: auto;
 	background-color: #d8d8d8;
