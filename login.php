@@ -77,7 +77,7 @@ if(empty(trim($_POST['username']))){
 </head>
 <body>
 
-  <div class="top-bar" style="z-index: 1;">
+<div class="top-bar" style="z-index: 1;">
   <div class="top-bar-left">
   <ul class="menu">
   <li class="menu-text">POTENT PIXEL</li>
@@ -87,9 +87,9 @@ if(empty(trim($_POST['username']))){
   </div>
   <div class="top-bar-right">
   <ul class="menu">
-    <li><a href="login.html">Log In</a></li>
-  <li><a href="registration.html" target="_top">User Registration</a></li>
-  <li><a href="profile.html">Artist Information</a></li>
+    <li><a href="login.php">Log In</a></li>
+  <li><a href="registration.php" target="_top">User Registration</a></li>
+  <li><a href="profile.php">Artist Information</a></li>
   <li><a href="#">Help</a></li>
   <li> <input type="text" placeholder="Search by artist or painting">  </li>
   </ul>
