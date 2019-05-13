@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,15 +44,12 @@
 
     <div class="row">
         <div class="col-sm-3 poster marg-l">
-            <h1>Van Gogh</h1>
+            <h1 class="artist_name">Van Gogh</h1>
             <hr class=" marg-b">
-            <img class="rounded img-fluid shadow" src="https://media.giphy.com/media/26AHupWKXQDHhgf3q/giphy.gif" alt="">
+            <img class="rounded img-fluid shadow artist_picture" src="https://media.giphy.com/media/26AHupWKXQDHhgf3q/giphy.gif" alt="">
             <hr class=" marg-b">
-            <p>Born: March 30, 1853, Zundert, Netherlands</p>
-            <p> Died: July 29, 1890, Auvers-sur-Oise, France</p>
-            <p> Periods: Realism, Post-Impressionism, Modern art, Impressionism, Japonism, Cloisonnism, Pointillism, Neo-impressionism</p>
-            <p> Movies: Lautrec</p>
-            <p> Siblings: Theo van Gogh, Wil van Gogh, Cor van Gogh</p>
+            <p class="artist_periods"> Periods: </p>
+            <p class="artist_country"> Country: </p>
             <hr class=" marg-b">
 
         </div>
@@ -146,6 +147,7 @@
                         $hits[1]++;
                         fwrite($fp, $hits[0]."-".$hits[1]);
                         echo "$hits[1]";
+                        fclose($fp);
                 ?></span>
             times </p>
           </div>
